@@ -2,26 +2,31 @@
 
 [**English**](./README.md) | 中文
 
-幻想主义麦克斯（FantasyMax）的个人 Claude Code skills — 蒸馏自 20+ 年跨领域实战经验：网文鉴赏、一人公司运营、多模型工程。
+三个自包含的 Claude Code skills，专为一人公司运营者和 AI 工程师打造。每个 skill 都是一套方法论协议，含原创心智模型、决策规则、诊断题集。
 
-每个 skill 提供两个语言版本：
+## 仓库结构
 
-- `SKILL.md`：中文，Claude Code skill discovery 的主入口
-- `SKILL.en.md`：英文，国际读者的镜像文档
+```
+my-opc-skills/
+├── en/                  ← 英文 Claude Code 环境装这套
+│   ├── taste-novel-critic/
+│   ├── opc-venture-screener/
+│   └── multi-llm-cost-handbook/
+└── zh/                  ← 中文 Claude Code 环境装这套
+    ├── taste-novel-critic/
+    ├── opc-venture-screener/
+    └── multi-llm-cost-handbook/
+```
 
-`LICENSE.md` 是法律文本，英文为唯一权威版本。
-
-© 2026 幻想主义麦克斯 · 许可：CC BY-NC-ND-4.0+ 含自定义条款 · 联系：HiFantasyMax
+每种语言版本都是独立的 skill 集合，含 `SKILL.md`（Claude Code 识别 skill 的标准文件名）和 `LICENSE.md`。**只装一种语言**，两种不应同时存在于同一个 `.claude/skills/` 目录。
 
 ---
 
 ## 包含内容
 
-三个自包含的 skill：
+### 1. `taste-novel-critic` — 网文品味诊断官
 
-### 1. [`taste-novel-critic`](./taste-novel-critic/) — 网文品味诊断官
-
-20 年老读者的品味诊断 — 不是写作工具，而是评审视角。预测读者会在哪里弃文以及为什么。四个心智模型，固定四维诊断顺序（设定 → 诉求 → 对手 → 细节）。
+网文（或 AI 生成的中长篇小说）品味诊断协议。**不评分文笔**，而是**预测读者会在哪里弃文、底层原因是什么**。四个心智模型，固定四维诊断顺序（设定 → 诉求 → 对手 → 细节）。
 
 **触发场景：**
 
@@ -29,9 +34,9 @@
 - 「这本网文为什么扑了」
 - 「这段 AI 写的哪里不对」
 
-### 2. [`opc-venture-screener`](./opc-venture-screener/) — 一人公司 venture 筛选器
+### 2. `opc-venture-screener` — 一人公司 venture 筛选器
 
-一人公司创始人的决策引擎。先扫红线 → 五维评分 → 强制写停损 → 资源分配。五个心智模型，十五条硬红线，开箱即用的评分卡。
+一人公司创始人的决策协议。**先扫红线 → 五维评分 → 强制写停损 → 资源分配**。五个心智模型，十五条硬红线，开箱即用的评分卡。专为 OPC 模式定制：低调高利、不真实身份露出、不做游戏机制 / 自建平台 / AI 直接生图。
 
 **触发场景：**
 
@@ -39,9 +44,9 @@
 - 「帮我评一下这个 idea」
 - 「停损条件应该怎么设」
 
-### 3. [`multi-llm-cost-handbook`](./multi-llm-cost-handbook/) — 多模型工程血泪手册
+### 3. `multi-llm-cost-handbook` — 多模型工程方法论
 
-多模型 swarm 编排 + 成本控制。**角色 ≠ 模型** — 先定义角色，再挑模型档位。Token 验证门禁、provider 隔离 ROI、schema-driven 配置。**故意不推荐具体模型名**（那些会过期），讲档位 + 判断准则。
+多模型 swarm 编排 + 成本控制方法论。**角色 ≠ 模型** — 先定义角色，再挑模型档位。Token 验证门禁、provider 隔离 ROI、schema-driven 配置。**故意不推荐具体模型名**（那些会过期），讲档位 + 判断准则。
 
 **触发场景：**
 
@@ -51,52 +56,43 @@
 
 ---
 
-## 跟通用 skill 的区别
-
-不是通用最佳实践，而是**作者原创的心智模型**，蒸馏自多年从业级实战经验：
-
-- 每个心智模型都经过三重验证筛选：跨域复现 + 生成力 + 排他性
-- 每个 skill 都自带 7-9 道诊断题，区分**专家答**和**通用 LLM 答**
-- 所有敏感原始数据都已脱敏为抽象方法论 — skill 不带任何专有数字、项目代号、访谈对象姓名、竞品数据
-
----
-
 ## 安装
 
-项目级：
-
-```bash
-cd <你的项目>/.claude/skills/
-git clone https://github.com/Fantasymax/my-opc-skills.git
-```
-
-用户全局：
-
-```bash
-cd ~/.claude/skills/
-git clone https://github.com/Fantasymax/my-opc-skills.git
-```
-
-clone 完成后重启 Claude Code session，让 skill discovery 重新扫描。
-
-只装单个 skill：
+### 方式一 — 安装全部 3 个 skill（推荐）
 
 ```bash
 git clone https://github.com/Fantasymax/my-opc-skills.git tmp
-mv tmp/taste-novel-critic .
+cp -r tmp/zh/* ~/.claude/skills/        # 中文版本
+# 或安装英文版：cp -r tmp/en/* ~/.claude/skills/
 rm -rf tmp
 ```
 
+安装后重启 Claude Code session，让 skill discovery 重新扫描。
+
+### 方式二 — 只装其中一个 skill
+
+```bash
+git clone https://github.com/Fantasymax/my-opc-skills.git tmp
+cp -r tmp/zh/taste-novel-critic ~/.claude/skills/    # 挑你想要的
+rm -rf tmp
+```
+
+### 项目级安装
+
+把 `~/.claude/skills/` 替换为 `<你的项目>/.claude/skills/`，让 skill 仅对该项目生效。
+
 ---
 
-## 质量验证
+## 验证 skill 是否生效
 
-每个 skill 在 `SKILL.md` 里都自带诊断题集。验证步骤：
+每个 skill 在 `SKILL.md` 里都有 `## 质量验证` 板块，含 7–9 道诊断题。
 
 1. 开新的 Claude Code session
 2. 用上面的触发场景之一
-3. 把回答跟诊断题里的专家答对比
+3. 把回答跟诊断题里的"专家答"对比
 4. 通过标准：≥ 80% 接近专家答（不是通用 LLM 答）
+
+如果通过率不到 80%，可能是 SKILL.md 的触发信号不够强 — 提 GitHub issue。
 
 ---
 
@@ -115,7 +111,7 @@ rm -rf tmp
 
 **引用格式：**
 
-> 方法论引自幻想主义麦克斯（FantasyMax）的 `<skill-name>`，Skill ID: `<id>`，来源：https://github.com/Fantasymax/my-opc-skills
+> 方法论引自 FantasyMax 的 `<skill-name>`，Skill ID: `<id>`，来源：https://github.com/Fantasymax/my-opc-skills
 
 ---
 
@@ -133,16 +129,12 @@ rm -rf tmp
 
 ## 原创性声明
 
-这些 skill 中的心智模型、决策规则、反模式和专家答声音都是**作者原创**，蒸馏自幻想主义麦克斯（FantasyMax）的私人实战档案 — 跨网文鉴赏、一人公司运营、多模型工程。
+这些 skill 中的心智模型、决策规则、反模式、评分卡、专家答声音都是**作者原创**。© 2026 FantasyMax。
 
----
-
-## 联系
-
-许可咨询、商用授权、或举报盗用：**HiFantasyMax**（社交平台）。
+许可咨询、商用授权、举报盗用：**HiFantasyMax**（社交平台）。
 
 Skill 报错、内容修正、质量验证失败：在 GitHub 提 issue。
 
 ---
 
-*Skills as moats — 品味、判断和实战伤疤打败任何 LLM 生成的框架。*
+*Skills as moats — 品味、判断和实战验证的协议打败任何 LLM 生成的框架。*

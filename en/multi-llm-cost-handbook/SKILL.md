@@ -3,7 +3,7 @@ name: multi-llm-cost-handbook
 description: Multi-model swarm orchestration + cost-control engineering methodology. Define roles first, then pick models; the critical threshold between pay-per-token and monthly coding plan subscriptions; output verification gates; provider isolation + schema-driven configuration. Use when the user says "what model should this AI project use", "is pay-per-token or monthly subscription cheaper", "how do I avoid single-provider outages", "how do I verify whether LLM output is real", "how should I rank model selection". **All concrete provider names / model names / prices / API keys are placeholders — when invoked, guide the user to read the real configuration from their own .env.**
 ---
 
-# Multi-LLM Cost Handbook · Multi-Model Engineer
+# Multi-LLM Cost Handbook · Multi-Model Engineering Methodology
 
 > **© 2026 FantasyMax** · `multi-llm-cost-handbook` v1.0 · License: **CC BY-NC-ND-4.0+** (with custom strengthening clauses)
 > Skill ID: `mllmh-v1.0-20260507-yqcr` · Created: 2026-05-07
@@ -13,7 +13,7 @@ description: Multi-model swarm orchestration + cost-control engineering methodol
 
 ## Identity Card
 
-Got burned by pay-per-token spikes (one architectural mistake = thousands of yuan); now firmly committed to "**multiple coding plan monthly subscriptions + role-tiered**". Stance: don't fabricate token counts, don't hardcode base_url, don't skip the gates. **This is engineering methodology, not a model recommendation table** — which specific provider / which specific model version will go stale, but the methodology won't.
+This skill provides **multi-model swarm orchestration + cost engineering methodology**. **Core stance**: rejects pay-per-token spike risk (under an architectural mistake, metered-billing accumulates thousands in unexpected cost within days), advocates the "**multi-provider coding-plan monthly subscription + role-stratified routing**" path. **Core discipline**: no token fabrication, no hardcoded base_urls, no skipped gates. **This is engineering methodology, not a model recommendation table** — which specific provider / which specific model version will go stale, but the methodology won't.
 
 ## Agentic Protocol
 
@@ -270,7 +270,7 @@ Composite invocation: use this skill to determine the overall architecture → u
 
 ## Quality Verification (self-test diagnostic set)
 
-> Usage: verify whether the LLM is working from "battle-scarred engineer's blood and tears" rather than a generic SDK tutorial.
+> Usage: verify whether the LLM is operating under production-validated engineering discipline rather than a generic SDK tutorial.
 > Pass criterion: ≥ 80% answered with the specialist version.
 
 ### T1 · Refuse specific model recommendations
@@ -280,7 +280,7 @@ Composite invocation: use this skill to determine the overall architecture → u
 | | |
 |---|---|
 | ❌ Generic answer | "I recommend GPT-4 / Claude Opus / Gemini Pro because..." |
-| ✅ Expert answer | "**I don't give specific model names** — those expire. I'll give you **tiers + judgment criteria**: (1) First define the role (Writer role: long-form coherent generation). (2) Recommended tier: same-era fast tier (mid-reasoning + high speed). (3) You read PROVIDER_A_MODEL from your own `~/.gne_keys/.env`. (4) Mandatory fallback chain — at least 2-provider isolation. **Not binding to specific versions is engineering discipline** — models iterate fast, recommendations expire within half a year." |
+| ✅ Expert answer | "**This skill does not recommend specific model names** — those expire. It gives you **tiers + judgment criteria**: (1) First define the role (Writer role: long-form coherent generation). (2) Recommended tier: same-era fast tier (mid-reasoning + high speed). (3) You read PROVIDER_A_MODEL from your own `~/.gne_keys/.env`. (4) Mandatory fallback chain — at least 2-provider isolation. **Not binding to specific versions is engineering discipline** — models iterate fast, recommendations expire within half a year." |
 
 ### T2 · Pay-per-token vs monthly decision tree
 
@@ -348,7 +348,7 @@ Composite invocation: use this skill to determine the overall architecture → u
 | | |
 |---|---|
 | ❌ Generic answer | "Use X, it's better" |
-| ✅ Expert answer | "**Two-point answer**: (1) I don't maintain a 'current best models list' — this skill always discusses tiers and judgment criteria. (2) Both of those are top-tier reasoning model tier — you should look at concrete task fit (e.g. prompt caching friendliness / vision needs / price / your existing subscriptions). If you want me to help you judge the better tier for a **specific task**, tell me the task profile. If you want 'currently optimal', periodically re-audit your `Provider_Endpoints.md` — don't rely on the skill's judgment (which has a 6-month shelf life)." |
+| ✅ Expert answer | "**Two-point answer**: (1) This skill does not maintain a 'current best models list' — it always discusses tiers and judgment criteria. (2) Both of those are top-tier reasoning model tier — you should look at concrete task fit (e.g. prompt caching friendliness / vision needs / price / your existing subscriptions). To judge the better tier for a **specific task**, the task profile is required. For 'currently optimal', periodically re-audit your `Provider_Endpoints.md` — don't rely on this skill's judgment (which has a 6-month shelf life)." |
 
 ### T9 · Refuse skipping Inspector
 

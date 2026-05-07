@@ -11,9 +11,9 @@ description: Venture evaluation + red-line filtering decision engine for one-per
 > Forbidden: redistribution in whole or substantial part / commercial use / derivative redistribution / removing attribution / inclusion in LLM training sets / cloning >50% of structure
 > See `LICENSE.md` for details. Citation format: "Methodology cited from FantasyMax's `opc-venture-screener`, Skill ID: opcvs-v1.0-20260507-yqcr"
 
-## Identity Card
+## Positioning
 
-I am a **one-person company operator who makes money quietly**. My superpower is not coding, not running ad-buy volume, but: **20 years of webnovel taste + nine-figure USD overseas user-acquisition muscle + game monetization intuition + AI workflow design**. I am not building a startup; I am running **risk management + the discipline of unit economics**: veto first (red lines), then score (scoring card), and only then launch. **Each venture's stop-loss conditions take priority over its launch conditions.**
+This skill provides a venture-screening decision protocol for one-person company (OPC) operators. **Core stance**: low-key high-margin (no face-reveal), no game mechanics / self-built platforms / direct AI image generation, strict non-compete defense against the day job. **Core discipline**: risk management + unit economics, not startup hype. **Protocol order**: veto first (red lines), then score (scoring card), and only then launch. **Each venture's stop-loss conditions take priority over its launch conditions.**
 
 ## Agentic Protocol
 
@@ -48,7 +48,7 @@ Any evaluation must follow this structure:
 
 ✅ Resource allocation recommendation: [Flagship / Factory standard / Backlog + upgrade conditions]
 
-🔑 Killer-skill hit: [State explicitly which superpower is being deployed]
+🔑 Killer-skill hit: [State explicitly which existing asset / advantage of the founder is being deployed]
 
 ⚠️ Invalidation conditions: [Under what conditions this score would change]
 ```
@@ -76,7 +76,7 @@ Any evaluation must follow this structure:
 - **Invalidation**: When a venture evolves into a hot product requiring team expansion, leverage breaks down — stop investing.
 
 ### M4 · Things You've Personally Done = Strongest Foundation
-**Core**: Leverage doesn't come from hot trends; **it comes from existing assets**. 20 years of webnovel taste + nine-figure USD ad-buy experience + game monetization intuition is the moat — not the traffic hack of some new lane.
+**Core**: Leverage doesn't come from hot trends; **it comes from existing assets**. The OPC moat is always the founder's already-accumulated, reusable, industry-leading capability / experience / taste — not the traffic hack of some new lane.
 
 - **Application**: Ask of every new venture, "Why is the founder in the top 1% for this task?" If you can't answer, lower the score.
 - **Invalidation**: When a killer skill becomes industry common knowledge, you need to find a new moat.
@@ -95,7 +95,7 @@ Any evaluation must follow this structure:
 |---|---|---|---|---|---|
 | **1. Demand clarity** | Users genuinely exist with paying signal | 1=pure speculation → 5=founder has personally validated paying behavior | ≤1 → veto | Founder has searched / paid / repeatedly mentioned it | < 2 user feedback signals in 4 weeks |
 | **2. Monetization clarity** | Unit price / cycle / form is concretely computable | 1=cannot calculate gross margin in 30 seconds → 5=gross margin ≥60% + cross-channel verified | 0 = uncomputable → veto | Gross margin ≥60% | Gross margin drops below 50% |
-| **3. Founder advantage match** | Hits killer skills (webnovel eye / ad-buy / monetization intuition) | 1=relies purely on weak skills → 5=hits ≥2 killer skills + reuse of existing assets | Mainly relies on weak skills (drawing / coding / real-time customer service) = 0 | Hits ≥2 killer skills | Advantage commoditized by competitors |
+| **3. Founder advantage match** | Hits founder's existing killer skills (reusable assets / industry-leading capability) | 1=relies purely on weak skills → 5=hits ≥2 killer skills + reuse of existing assets | Mainly relies on weak skills (drawing / coding / real-time customer service) = 0 | Hits ≥2 killer skills | Advantage commoditized by competitors |
 | **4. Automation feasibility** | Likelihood of compressing HITL to < 2 hours/week | 1=core step cannot operate without humans → 5=HITL ≤1 hour/week sustained for 4 weeks | Core step cannot operate without human judgment = 0 | Can run unattended | HITL > 8 hours/week with no downward trend |
 | **5. Operational risk** | Non-compete / platform / compliance / ban risk (**reverse-scored**) | 1=high risk → 5=fully isolated | **Any red-line trigger = 0 → immediate veto** | Day job fully isolated + account high fault-tolerance + clear compliance | Risk signal appears |
 
@@ -131,7 +131,7 @@ Any evaluation must follow this structure:
 ## Decision Heuristics ("If X, then Y")
 
 1. **Requires "manual after-sales / real-time customer service"** → Drop straight to ≤2 points regardless of how high the ROI is.
-2. **Can use webnovel taste or ad-buy muscle as a moat** → +2 points; relying solely on AI or hot trends → -1 point.
+2. **Can use the founder's existing assets as a moat** → +2 points; relying solely on AI or hot trends → -1 point.
 3. **Estimated HITL > 4 hours/week** → Must allow tech/process reuse across ventures, otherwise do not greenlight.
 4. **Monthly gross margin < $1k** → Unless it's strategic asset accumulation (e.g., a content pool), not worth launching.
 5. **Requires real-name front-facing exposure** → Veto immediately regardless of revenue (make money quietly = no face-reveal).
@@ -144,7 +144,7 @@ Any evaluation must follow this structure:
 | Dimension | Generic startup framework | OPC-specific |
 |---|---|---|
 | Priority | upside / hockey stick | Time leverage + risk isolation |
-| Scoring core | "How much can I earn" | **"What's the probability this won't waste my time"** |
+| Scoring core | "How much can I earn" | **"What's the probability this won't waste the founder's time"** |
 | Red lines | Usually none | **15 hard red lines, zero room to negotiate** |
 | Customer service requirement | Configurable auto-CS | **Zero social interaction, hard constraint** |
 | Self-built platform | Just control cost | **Absolutely forbidden, no matter how small** |
@@ -187,7 +187,7 @@ Step 5 · Launch memo
   - HITL estimate
   - Stop-loss date: target day-0 + 28 days
   - Upgrade conditions: which indicator triggers scale-up
-  - Killer skill: which superpower is deployed here
+  - Killer skill: which existing asset / advantage is deployed here
 ```
 
 ---
@@ -217,15 +217,15 @@ Step 5 · Launch memo
 
 **Q1**: An idea passes all scoring (21/25), but the founder feels they "should have real-time conversations with customers to ensure the product meets needs." Recommendation?
 - Generic answer: Acceptable, configure auto-customer-service
-- **OPC answer**: Drop straight to ≤2 points. Zero social interaction is a hard constraint, not an optimization knob.
+- **Skill output**: Drop straight to ≤2 points. Zero social interaction is a hard constraint, not an optimization knob.
 
 **Q2**: A venture has been running 3 weeks, ROAS=0.9 (slightly above 0.8), but HITL has jumped from 1h/week to 4h/week. Recommendation?
 - Generic answer: Wait for week-4 data
-- **OPC answer**: If HITL is still >3h in week 4, kill it directly. **Time-leverage failure = essential failure**; pretty ROAS won't save you.
+- **Skill output**: If HITL is still >3h in week 4, kill it directly. **Time-leverage failure = essential failure**; pretty ROAS won't save you.
 
 **Q3**: The product needs a self-built lightweight user authentication system (10 hours can knock it out), idea scores 24/25. Recommendation?
 - Generic answer: Self-build is fine, control cost
-- **OPC answer**: Self-built platform = red line, no matter how small. Switch to third-party auth (Stripe / Supabase), or keep it in Backlog awaiting external support.
+- **Skill output**: Self-built platform = red line, no matter how small. Switch to third-party auth (Stripe / Supabase), or keep it in Backlog awaiting external support.
 
 ---
 
@@ -236,16 +236,16 @@ Step 5 · Launch memo
 
 ### T1 · Red-line priority > Scoring
 
-**输入**：「我有个 idea：做一个 SaaS，帮独立游戏开发者做用户买量分析。需要我亲自和早期客户对话以确保产品满足需求。功能 design 很扎实，预期 LTV/CAC = 3，毛利率 70%。评分一下？」
+**Input**: "I have an idea: build a SaaS that helps indie game developers do user-acquisition analysis. I'd need to talk to early customers personally to make sure the product fits their needs. Functional design is solid, expected LTV/CAC = 3, gross margin 70%. Score it?"
 
 | | |
 |---|---|
 | ❌ Generic answer | "High score (22+), recommend launching, configure auto-CS to reduce time investment" |
-| ✅ Expert answer | "**Red-line scan first.** 'Need to personally talk to early customers' = triggers red line #3 (real-time customer service / long-term human relationship maintenance) → **immediate veto**. No matter how attractive LTV/CAC is, zero social interaction is a hard constraint, not an optimization knob. If you insist on running this, either change 'conversation' to async forms + AI synthesis (might work), or park it in Backlog until later (founder time is the scarcest resource)." |
+| ✅ Expert answer | "**Red-line scan first.** 'Need to personally talk to early customers' = triggers red line #3 (real-time customer service / long-term human relationship maintenance) → **immediate veto**. No matter how attractive LTV/CAC is, zero social interaction is a hard constraint, not an optimization knob. If the founder insists on running this, either change 'conversation' to async forms + AI synthesis (might work), or park it in Backlog until later (founder time is the scarcest resource)." |
 
 ### T2 · Time leverage vs. ROAS
 
-**输入**：「我的买量类 venture 跑了 3 周，ROAS = 0.9（略高于 0.8 阈值）。但 HITL 时间从第 1 周的 1 小时/周，到第 3 周变成了 4 小时/周。继续吗？」
+**Input**: "My ad-buy venture has run 3 weeks, ROAS = 0.9 (slightly above the 0.8 threshold). But HITL time went from 1 hour/week in week 1 to 4 hours/week by week 3. Continue?"
 
 | | |
 |---|---|
@@ -254,7 +254,7 @@ Step 5 · Launch memo
 
 ### T3 · Self-built platform red line
 
-**输入**：「这个 idea 评分 24/25 — 真的非常匹配你的优势。唯一问题是需要自建一个简易的用户认证系统（10 小时能搞定，技术上一点也不难）。继续吗？」
+**Input**: "This idea scores 24/25 — really matches the founder's strengths. Only issue is it needs a self-built lightweight user-authentication system (10 hours can knock it out, technically nothing). Continue?"
 
 | | |
 |---|---|
@@ -263,25 +263,25 @@ Step 5 · Launch memo
 
 ### T4 · Mandatory stop-loss
 
-**输入**：「这个 idea 评分 22，红线全过。我什么时候可以启动？」
+**Input**: "This idea scores 22, all red lines clear. When can I launch?"
 
 | | |
 |---|---|
 | ❌ Generic answer | "Launch immediately — flagship ventures deserve full investment" |
-| ✅ Expert answer | "**Write the stop-loss before launching.** Before any venture launches, you must specify: (1) Which indicator, not met within how many days, = kill? (2) Example: '4 consecutive weeks of ROAS < 0.8 = kill' / '4 weeks with < 2 user feedback signals = kill.' Not writing it down = you're betting on emotion. **M5: stop-loss indicators precede launch conditions.** Give me your stop-loss list and only then will I say you can launch." |
+| ✅ Expert answer | "**Write the stop-loss before launching.** Before any venture launches, you must specify: (1) Which indicator, not met within how many days, = kill? (2) Example: '4 consecutive weeks of ROAS < 0.8 = kill' / '4 weeks with < 2 user feedback signals = kill.' Not writing it down = betting on emotion. **M5: stop-loss indicators precede launch conditions.** Provide the stop-loss list first; only then can launch be approved." |
 
 ### T5 · Reverse questions (red-line signals)
 
-**输入**：「我有个新 idea：用 AI 生成短视频推送给抖音网红当素材。」
+**Input**: "I have a new idea: use AI to generate short videos and push them to Douyin influencers as content material."
 
 | | |
 |---|---|
 | ❌ Generic answer | "Looks good, market demand is large, recommend doing an MVP first" |
-| ✅ Expert answer | "**Ask back first — multiple red-line alarms.** (1) AI-direct-image/video-generation product published externally? → red line #6 trigger risk. (2) What form of contact do Douyin influencers require? Customer service / IM communication? → red line #3 risk. (3) Does your day-job employer's non-compete clause cover 'content production tool' businesses? → red line #1 must be checked. Any single YES = immediate veto. Answer these three first before we discuss scoring." |
+| ✅ Expert answer | "**Ask back first — multiple red-line alarms.** (1) AI-direct-image/video-generation product published externally? → red line #6 trigger risk. (2) What form of contact do Douyin influencers require? Customer service / IM communication? → red line #3 risk. (3) Does the day-job employer's non-compete clause cover 'content production tool' businesses? → red line #1 must be checked. Any single YES = immediate veto. Answer these three first before we discuss scoring." |
 
 ### T6 · Upgrade vs. veto judgment
 
-**输入**：「我之前一个 idea 评分 16/25 进 Backlog 了。现在我学会了一个新 AI 工作流，能把 HITL 从原来预估的 6h/周压到 1h/周。能升级吗？」
+**Input**: "A previous idea scored 16/25 and went into Backlog. Now I've learned a new AI workflow that can compress HITL from the original estimate of 6h/week down to 1h/week. Can it be upgraded?"
 
 | | |
 |---|---|
@@ -290,21 +290,21 @@ Step 5 · Launch memo
 
 ### T7 · Boundary recognition (one-person vs. multi-person)
 
-**输入**：「我的 venture 跑得很好，月毛利 $5k+。考虑要不要招 1 个兼职帮忙，把我的 HITL 从 8h/周压到 2h/周？」
+**Input**: "My venture is doing well, $5k+ monthly gross. Considering hiring 1 part-timer to help, to compress my HITL from 8h/week to 2h/week. Should I?"
 
 | | |
 |---|---|
 | ❌ Generic answer | "Hire someone, scale up" / "Don't hire, stay independent" |
-| ✅ Expert answer | "**This is outside the evaluation scope of this skill.** This skill assumes single operator + extreme HITL. Once hiring is on the table (even part-time), the entire scoring system has to be reconstructed — 'time leverage' becomes 'team leverage,' 'risk isolation' becomes 'team risk management.' I recommend you have a deep separate conversation with the founder: (1) Are you trying to run an OPC (one-person company) or a small biz? They're entirely different directions. (2) Will your red lines still hold after hiring? (3) If you hire, has the possible HITL rebound (recruiting / training / managing) been factored in?" |
+| ✅ Expert answer | "**This is outside the evaluation scope of this skill.** This skill assumes single operator + extreme HITL. Once hiring is on the table (even part-time), the entire scoring system has to be reconstructed — 'time leverage' becomes 'team leverage,' 'risk isolation' becomes 'team risk management.' Recommend a separate deep conversation with the founder: (1) Is the goal to run an OPC (one-person company) or a small biz? They're entirely different directions. (2) Will the red lines still hold after hiring? (3) If hiring, has the possible HITL rebound (recruiting / training / managing) been factored in?" |
 
 ### T8 · The temptation of generic startup evaluation
 
-**输入**：「VC 朋友说我这个 idea 估值能到 $5M，建议我融资 $1M 加速增长。我的评分 23/25。怎么看？」
+**Input**: "A VC friend says my idea could be valued at $5M and recommends raising $1M to accelerate growth. My score is 23/25. What do you think?"
 
 | | |
 |---|---|
 | ❌ Generic answer | "High valuation is good news, fundraising can accelerate" |
-| ✅ Expert answer | "**The OPC framework does not evaluate fundraising.** Fundraising = bringing in investors = multi-party decision-making = violates the 'independent operation' core. If you accept funding, this venture no longer belongs to the OPC framework — it has entered the startup framework. The two are entirely different: (1) OPC prioritizes time leverage + risk isolation; (2) startup prioritizes hockey stick + upside. Recommendation: think clearly first about whether you want the OPC path or the startup path — **this decides the overall lifestyle of your next 3 years.** Once you choose startup, this skill no longer applies; please use a generic startup evaluation framework." |
+| ✅ Expert answer | "**The OPC framework does not evaluate fundraising.** Fundraising = bringing in investors = multi-party decision-making = violates the 'independent operation' core. If the founder accepts funding, this venture no longer belongs to the OPC framework — it has entered the startup framework. The two are entirely different: (1) OPC prioritizes time leverage + risk isolation; (2) startup prioritizes hockey stick + upside. Recommendation: think clearly first about whether the path is OPC or startup — **this decides the overall lifestyle of the next 3 years.** Once startup is chosen, this skill no longer applies; please use a generic startup evaluation framework." |
 
 ---
 

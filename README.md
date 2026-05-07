@@ -2,43 +2,49 @@
 
 **English** | [中文](./README.zh.md)
 
-Personal Claude Code skills authored by FantasyMax — practitioner know-how distilled from 20+ years across webnovel critique, one-person company operations, and multi-LLM engineering.
+Three self-contained Claude Code skills for one-person company operators and AI engineering. Each skill is a methodology distilled into a Claude Code skill — author-original mental models, decision rules, and diagnostic Q&As.
 
-Each skill ships in two languages:
-- `SKILL.md` — Chinese, primary canonical for Claude Code skill discovery
-- `SKILL.en.md` — English, mirror documentation for international readers
+## Repository Layout
 
-`LICENSE.md` is the legal canonical text in English.
+```
+my-opc-skills/
+├── en/                  ← Install this for English Claude Code environment
+│   ├── taste-novel-critic/
+│   ├── opc-venture-screener/
+│   └── multi-llm-cost-handbook/
+└── zh/                  ← Install this for Chinese Claude Code environment
+    ├── taste-novel-critic/
+    ├── opc-venture-screener/
+    └── multi-llm-cost-handbook/
+```
 
-© 2026 FantasyMax · License: CC BY-NC-ND-4.0+ with custom terms · Contact: HiFantasyMax
+Each language version is an independent set of skills with `SKILL.md` (the canonical filename Claude Code uses for discovery) and `LICENSE.md`. Pick **one** language to install — they are not meant to coexist in the same `.claude/skills/` directory.
 
 ---
 
 ## What's Inside
 
-Three self-contained skills:
+### 1. `taste-novel-critic` — Webnovel Taste Diagnosis
 
-### 1. [`taste-novel-critic`](./taste-novel-critic/) — Webnovel Taste Diagnosis
-
-A 20-year reader's taste-driven critic. Predicts where readers will drop off and why — not a writing tool, a critic's lens. Four mental models, fixed four-dimension review order (Setting → Motivation → Antagonist → Execution).
+A taste-driven diagnostic protocol for webnovels (or AI-generated long-form fiction). Predicts where readers will drop the book and why — not a writing tool, a reviewer's lens. Four mental models, fixed four-dimension review order (Setting → Motivation → Antagonist → Execution).
 
 **When to invoke:**
 - "I can't get past Chapter 3 of this novel — why?"
 - "Why did this webnovel flop?"
 - "Diagnose this AI-generated chapter"
 
-### 2. [`opc-venture-screener`](./opc-venture-screener/) — One-Person Company Venture Screener
+### 2. `opc-venture-screener` — One-Person Company Venture Screener
 
-A decision engine for solo founders. Red lines first → 5-dimensional scoring → mandatory stop-loss → resource allocation. Five mental models, fifteen hard red lines, ready-to-use scoring rubric.
+A decision protocol for solo founders. Red lines first → 5-dimensional scoring → mandatory stop-loss → resource allocation. Five mental models, fifteen hard red lines, ready-to-use scoring rubric. Specifically calibrated for the OPC mode: low-key high-margin, no real-name front-facing exposure, no game mechanics / self-built platforms / direct AI image generation.
 
 **When to invoke:**
 - "Should I pursue this idea?"
 - "Score this venture for me"
 - "What stop-loss conditions should I set?"
 
-### 3. [`multi-llm-cost-handbook`](./multi-llm-cost-handbook/) — Multi-LLM Engineering Handbook
+### 3. `multi-llm-cost-handbook` — Multi-LLM Engineering Handbook
 
-Multi-LLM swarm orchestration and cost engineering. **Roles ≠ Models** — define roles first, then pick model tiers. Token-verification gates, provider isolation ROI, schema-driven configuration. Deliberately does not recommend specific model names — teaches tier-and-judgment instead.
+Multi-LLM swarm orchestration and cost engineering methodology. **Roles ≠ Models** — define roles first, then pick model tiers. Token-verification gates, provider isolation ROI, schema-driven configuration. Deliberately does not recommend specific model names — teaches tier-and-judgment instead.
 
 **When to invoke:**
 - "Which model should I use for this AI agent?"
@@ -47,52 +53,43 @@ Multi-LLM swarm orchestration and cost engineering. **Roles ≠ Models** — def
 
 ---
 
-## Why These Are Different
-
-These are not generic best practices. They encode author-original mental models distilled from years of practitioner-level experience:
-
-- Each mental model passes a triple-verification standard: cross-domain reproduction, generative power, and exclusivity
-- Each skill includes 7-9 diagnostic questions distinguishing expert answers from generic LLM answers
-- All sensitive raw data is redacted into abstract methodology — no proprietary numbers, project codenames, real interviewee names, or competitor data
-
----
-
 ## Installation
 
-Project-local:
-
-```bash
-cd <your-project>/.claude/skills/
-git clone https://github.com/Fantasymax/my-opc-skills.git
-```
-
-User-global:
-
-```bash
-cd ~/.claude/skills/
-git clone https://github.com/Fantasymax/my-opc-skills.git
-```
-
-After cloning, restart your Claude Code session for skill discovery to pick up the new skills.
-
-To install only one skill:
+### Option 1 — Install all three skills (recommended)
 
 ```bash
 git clone https://github.com/Fantasymax/my-opc-skills.git tmp
-mv tmp/taste-novel-critic .
+cp -r tmp/en/* ~/.claude/skills/        # English version
+# OR for Chinese: cp -r tmp/zh/* ~/.claude/skills/
 rm -rf tmp
 ```
 
+After installing, restart your Claude Code session for skill discovery to register the new skills.
+
+### Option 2 — Install only one skill
+
+```bash
+git clone https://github.com/Fantasymax/my-opc-skills.git tmp
+cp -r tmp/en/taste-novel-critic ~/.claude/skills/    # pick the one you want
+rm -rf tmp
+```
+
+### Per-project install
+
+Replace `~/.claude/skills/` with `<your-project>/.claude/skills/` to scope skills to a single project.
+
 ---
 
-## Quality Verification
+## Verifying a Skill Works
 
-Each skill ships with diagnostic Q&As inside its `SKILL.md`. To verify a skill is working:
+Each skill ships with a `## Quality Verification` section in its `SKILL.md` containing 7–9 diagnostic Q&As.
 
 1. Open a fresh Claude Code session
-2. Use one of the trigger phrases above
+2. Use one of the trigger phrases listed above
 3. Compare the response against the expert-answer patterns in the diagnostic section
 4. Pass standard: ≥ 80% match to expert answers (not generic LLM answers)
+
+If a skill scores below 80%, the SKILL.md likely needs stronger trigger signals — open a GitHub issue.
 
 ---
 
@@ -129,11 +126,7 @@ These are permanent fingerprints. Stripping or altering them violates the licens
 
 ## Authorship
 
-The mental models, decision rules, anti-patterns, and expert-answer voices in these skills are author-original, distilled from FantasyMax's private practice archive across webnovel critique, one-person company operations, and multi-LLM engineering.
-
----
-
-## Contact
+The mental models, decision rules, anti-patterns, scoring rubrics, and expert-answer voices in these skills are **author-original**. © 2026 FantasyMax.
 
 For licensing inquiries, commercial-use requests, or to report copying or repurposing: **HiFantasyMax** (via social platforms).
 
@@ -141,4 +134,4 @@ For skill bugs, content corrections, or quality-test failures: open a GitHub iss
 
 ---
 
-*Skills as moats — taste, judgment, and battle-scars beat any LLM-generated framework.*
+*Skills as moats — taste, judgment, and battle-tested protocols beat any LLM-generated framework.*
