@@ -259,12 +259,14 @@ Step 6 · 上线（部署 + 监控）
 
 ---
 
-## 与其他 skill 的关系
+## 独立可用声明 / 选配 skill
 
-- **claude-api skill** — Anthropic SDK 专属（如何调 Claude API）
-- **本 skill** — **多 provider 通用**（如何编排 5 家不同 provider 的 swarm）
+**本 skill 完全自包含**，不依赖任何其他 skill 即可完成多模型 swarm 编排 + 成本控制的全部工作流（角色映射 / 模型档位 / 工程门禁 / fallback 链 / 决策启发式）。
 
-复合调用：用本 skill 决定整体架构 → 用 claude-api skill 处理 Claude 特定优化（prompt caching 等）。
+**选配（非必装）**：
+
+- 如果工作流中确实使用 **Claude API**（Anthropic SDK），可参考 Anthropic 官方的 `claude-api` skill 处理 Claude 特定优化（prompt caching、extended thinking、batch API 等）— 本 skill 给的是**多 provider 通用方法论**，不替代单 provider SDK 文档。
+- 如果未安装 `claude-api` skill：本 skill 的 M3（Token 验证门禁）+ M5（Schema-Driven）已覆盖 Claude API 的核心工程纪律部分；prompt caching 等省钱优化属于 Anthropic 文档原生内容，直接查 https://docs.anthropic.com 即可。
 
 ---
 
