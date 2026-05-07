@@ -21,8 +21,7 @@ Plus: 8-role × N-provider tier mapping, **15-rule engineering gate checklist**,
 - "Pay-per-token or monthly subscription — which is cheaper?"
 - "How do I avoid single-provider outage?"
 - "How do I verify whether LLM output is real?"
-- "这个 AI 项目该用什么模型"
-- "按量计费还是包月划算"
+- "How should I rank model selection?"
 
 ## Installation
 

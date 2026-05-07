@@ -19,8 +19,7 @@ Plus: 5-dimension scoring rubric, **15 hard red lines**, decision heuristics, an
 - "Should I pursue this idea?"
 - "Score this venture for me"
 - "What stop-loss conditions should I set?"
-- "我有个新点子能不能做"
-- "帮我评一下这个 idea"
+- "Should I launch this venture?"
 
 ## Installation
 

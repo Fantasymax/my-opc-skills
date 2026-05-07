@@ -6,10 +6,10 @@
 
 ## Mental models (4)
 
-- **M1 · Plastic Feel Detection** (塑料感识别)
-- **M2 · Power Imbalance Trap** (权力失衡陷阱)
-- **M3 · Motivation Black Hole** (动机黑洞)
-- **M4 · Information Asymmetry Mishandling** (信息差操纵失手)
+- **M1 · Plastic Feel Detection**
+- **M2 · Power Imbalance Trap**
+- **M3 · Motivation Black Hole**
+- **M4 · Information Asymmetry Mishandling**
 
 Plus: decision heuristics, expression DNA (style fingerprint), anti-patterns, fixed 4-dimension review order, 7 quality-verification diagnostics. Composite workflows (post-diagnosis rewrite guide / chapter self-review / outline restructuring) shipped as `references/composite-workflows.md`.
 
@@ -18,7 +18,7 @@ Plus: decision heuristics, expression DNA (style fingerprint), anti-patterns, fi
 - "I can't get past Chapter 3 of this novel — why?"
 - "Why did this webnovel flop?"
 - "Diagnose this AI-generated chapter"
-- "这段我读不下去" / "这本网文为什么扑了"
+- "Will readers leave this chapter?"
 
 ## Installation
 

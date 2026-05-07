@@ -6,10 +6,10 @@
 
 ## 心智模型（4 个）
 
-- **M1 · 塑料感识别** (Plastic Feel Detection)
-- **M2 · 权力失衡陷阱** (Power Imbalance Trap)
-- **M3 · 动机黑洞** (Motivation Black Hole)
-- **M4 · 信息差操纵失手** (Information Asymmetry Mishandling)
+- **M1 · 塑料感识别**
+- **M2 · 权力失衡陷阱**
+- **M3 · 动机黑洞**
+- **M4 · 信息差操纵失手**
 
 加上：决策启发式、表达 DNA（风格指纹）、反模式、固定 4 维评论顺序、7 道质量验证诊断题。复合工作流（诊断后改写指引 / 章节 self-review / 大纲重构）作为 `references/composite-workflows.md` 提供。
 
