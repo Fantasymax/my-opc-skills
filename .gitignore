@@ -1,0 +1,16 @@
+# OS / IDE artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Local development
+*.log
+*.tmp
+.env
+.env.local
+
+# Obsidian artifacts (in case anyone clones into a vault)
+.obsidian/
