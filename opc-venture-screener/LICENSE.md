@@ -1,6 +1,6 @@
 # License · opc-venture-screener
 
-> **© 2026 FantasyMax · 幻想主义麦克斯. All rights reserved.**
+> **© 2026 FantasyMax. All rights reserved.**
 > Skill: `opc-venture-screener` v1.0
 > Skill ID: `opcvs-v1.0-20260507-yqcr`
 > First creation: 2026-05-07

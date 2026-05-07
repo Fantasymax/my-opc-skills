@@ -1,103 +1,129 @@
 # my-opc-skills
 
-[**English**](./README.md) · 中文（当前）
+[**English**](./README.md) | 中文
 
-> FantasyMax 个人 Claude Code skills 公开版，蒸馏自 20+ 年跨领域实战经验：网文鉴赏、一人公司运营、多模型工程。
+幻想主义麦克斯（FantasyMax）的个人 Claude Code skills — 蒸馏自 20+ 年跨领域实战经验：网文鉴赏、一人公司运营、多模型工程。
 
-**© 2026 FantasyMax · 幻想主义麦克斯** · 联系：**HiFantasyMax** · License: **CC BY-NC-ND-4.0+** 含自定义条款（见每个 skill 的 `LICENSE.md`）
+每个 skill 提供两个语言版本：
 
----
+- `SKILL.md`：中文，Claude Code skill discovery 的主入口
+- `SKILL.en.md`：英文，国际读者的镜像文档
 
-## 包含 3 个 Skill
+`LICENSE.md` 是法律文本，英文为唯一权威版本。
 
-每个 skill 自包含（`SKILL.md` 中文 + `SKILL.en.md` 英文 + `LICENSE.md`）：
-
-### 1. [`taste-novel-critic/`](./taste-novel-critic/) · 网文品味诊断官
-20 年网文老读者的品味诊断 — **不是写作工具，是评审视角**：预测读者会在哪里弃文、为什么。4 个心智模型（塑料感识别 / 权力失衡陷阱 / 动机黑洞 / 信息差操纵失手）+ 固定 4 维评论顺序（设定 → 诉求 → 对手 → 细节）。
-
-**触发话术**：「这段我读不下去」/「这本网文为什么扑了」/「这段 AI 写的哪里不对」
-
-### 2. [`opc-venture-screener/`](./opc-venture-screener/) · 一人公司 venture 筛选器
-一人公司决策引擎。**红线优先 → 5 维评分 → stop-loss 必填 → 资源配置**。专属于"低调发大财、不露脸"模式。
-
-**触发话术**：「我有个新点子能不能干」/「帮我评一下这个 idea」/「停损条件应该怎么设」
-
-### 3. [`multi-llm-cost-handbook/`](./multi-llm-cost-handbook/) · 多模型工程血泪手册
-多模型 swarm 编排 + 成本控制。**角色 ≠ 模型** — 先定义角色，再挑模型档位。Token 验证门禁 + provider 隔离 ROI + schema-driven 配置。**故意不推荐具体模型名**（那些会过期），讲档位 + 判断准则。
-
-**触发话术**：「这个 AI 项目该用什么模型」/「按量还是包月划算」/「怎么避免单一 provider 宕机」
+© 2026 幻想主义麦克斯 · 许可：CC BY-NC-ND-4.0+ 含自定义条款 · 联系：HiFantasyMax
 
 ---
 
-## 这些 Skill 与通用 skill 的区别
+## 包含内容
 
-不是"通用最佳实践"，是**作者原创心智模型**，蒸馏自多年从业级别经验：
+三个自包含的 skill：
 
-- 每个心智模型经过**三重验证**筛选：跨域复现 + 生成力 + 排他性
-- 每个 skill 含 `## 质量验证` 板块，7-9 道诊断题区分**专家答**和**通用 LLM 答**
-- 所有敏感原始数据已**脱敏为抽象方法论** — skill 不带任何专有数字、项目代号、访谈对象姓名、竞品数据
+### 1. [`taste-novel-critic`](./taste-novel-critic/) — 网文品味诊断官
+
+20 年老读者的品味诊断 — 不是写作工具，而是评审视角。预测读者会在哪里弃文以及为什么。四个心智模型，固定四维诊断顺序（设定 → 诉求 → 对手 → 细节）。
+
+**触发场景：**
+
+- 「这段我读不下去」
+- 「这本网文为什么扑了」
+- 「这段 AI 写的哪里不对」
+
+### 2. [`opc-venture-screener`](./opc-venture-screener/) — 一人公司 venture 筛选器
+
+一人公司创始人的决策引擎。先扫红线 → 五维评分 → 强制写停损 → 资源分配。五个心智模型，十五条硬红线，开箱即用的评分卡。
+
+**触发场景：**
+
+- 「我有个新点子能不能做」
+- 「帮我评一下这个 idea」
+- 「停损条件应该怎么设」
+
+### 3. [`multi-llm-cost-handbook`](./multi-llm-cost-handbook/) — 多模型工程血泪手册
+
+多模型 swarm 编排 + 成本控制。**角色 ≠ 模型** — 先定义角色，再挑模型档位。Token 验证门禁、provider 隔离 ROI、schema-driven 配置。**故意不推荐具体模型名**（那些会过期），讲档位 + 判断准则。
+
+**触发场景：**
+
+- 「这个 AI 项目该用什么模型」
+- 「按量计费还是包月划算」
+- 「怎么避免单一 provider 宕机」
+
+---
+
+## 跟通用 skill 的区别
+
+不是通用最佳实践，而是**作者原创的心智模型**，蒸馏自多年从业级实战经验：
+
+- 每个心智模型都经过三重验证筛选：跨域复现 + 生成力 + 排他性
+- 每个 skill 都自带 7-9 道诊断题，区分**专家答**和**通用 LLM 答**
+- 所有敏感原始数据都已脱敏为抽象方法论 — skill 不带任何专有数字、项目代号、访谈对象姓名、竞品数据
 
 ---
 
 ## 安装
 
-### Claude Code（项目级）
+项目级：
 
 ```bash
 cd <你的项目>/.claude/skills/
 git clone https://github.com/Fantasymax/my-opc-skills.git
-# 或挑选单个 skill：
-git clone https://github.com/Fantasymax/my-opc-skills.git tmp
-mv tmp/taste-novel-critic .
-rm -rf tmp
 ```
 
-### Claude Code（用户全局）
+用户全局：
 
 ```bash
 cd ~/.claude/skills/
 git clone https://github.com/Fantasymax/my-opc-skills.git
 ```
 
-clone 后重启 Claude Code session 让 skill discovery 重新扫描。
+clone 完成后重启 Claude Code session，让 skill discovery 重新扫描。
+
+只装单个 skill：
+
+```bash
+git clone https://github.com/Fantasymax/my-opc-skills.git tmp
+mv tmp/taste-novel-critic .
+rm -rf tmp
+```
 
 ---
 
 ## 质量验证
 
-每个 skill 在 `SKILL.md` 的 `## 质量验证` 板块都自带诊断题。验证步骤：
+每个 skill 在 `SKILL.md` 里都自带诊断题集。验证步骤：
 
-1. 开新 Claude Code session
-2. 用上面的触发话术
-3. 把回答跟 quality tests 里的"专家答"对比
-4. 通过标准：≥ 80% 接近专家答
+1. 开新的 Claude Code session
+2. 用上面的触发场景之一
+3. 把回答跟诊断题里的专家答对比
+4. 通过标准：≥ 80% 接近专家答（不是通用 LLM 答）
 
 ---
 
-## License 摘要
+## 许可
 
-所有 skill 走 **CC BY-NC-ND-4.0** + **自定义加强条款**（详见每个 `LICENSE.md`）：
+所有 skill 都使用 **CC BY-NC-ND-4.0** + 自定义加强条款。完整条款见每个 skill 的 `LICENSE.md`。
 
-| ✅ 可以 | ❌ 不可以 |
+| 允许 | 禁止 |
 |---|---|
-| 私下学习 | 整体或重大部分再分发 |
+| 私下学习与研究 | 整体或重大部分再分发 |
 | 短引用（< 100 行 或 < 20%）+ 署名 | 任何商业用途 |
-| 在自己的写作 / 帖子里引用 + 链接 | 衍生再分发 |
-| 自己私用改编 | 移除署名 / Skill ID |
-| 在 mentorship / 教学场景讨论 | 进 LLM 训练集 |
-| | 仿制 > 50% 结构 |
+| 在自己的写作或链接里引用 | 衍生再分发 |
+| 私用改编 | 移除署名 / Skill ID |
+| 在导师或教学场景讨论 | 进 LLM 训练集 |
+| | 仿制 > 50% 的结构 |
 
-**引用格式**：
+**引用格式：**
 
-> 方法论引自 FantasyMax 的 `<skill-name>`。Skill ID: `<id>`。来源：https://github.com/Fantasymax/my-opc-skills
+> 方法论引自幻想主义麦克斯（FantasyMax）的 `<skill-name>`，Skill ID: `<id>`，来源：https://github.com/Fantasymax/my-opc-skills
 
 ---
 
-## Skill ID 指纹（举证用）
+## Skill 指纹
 
-这些 ID 是**永久指纹**。剥离或修改它们违反 license。
+下列 ID 是永久指纹。剥离或修改它们等同于违反许可。
 
-| Skill | Fingerprint |
+| Skill | 指纹 |
 |---|---|
 | taste-novel-critic | `tnc-v1.0-20260507-yqcr` |
 | opc-venture-screener | `opcvs-v1.0-20260507-yqcr` |
@@ -107,15 +133,15 @@ clone 后重启 Claude Code session 让 skill discovery 重新扫描。
 
 ## 原创性声明
 
-这些 skill 中的心智模型、决策规则、反模式和"专家答"声音是**作者原创**，蒸馏自 FantasyMax 的私人实战档案 — 跨网文鉴赏、一人公司运营、多模型工程。
+这些 skill 中的心智模型、决策规则、反模式和专家答声音都是**作者原创**，蒸馏自幻想主义麦克斯（FantasyMax）的私人实战档案 — 跨网文鉴赏、一人公司运营、多模型工程。
 
 ---
 
 ## 联系
 
-License 询问 / 商用咨询 / 举报盗用：**HiFantasyMax**（社交平台）
+许可咨询、商用授权、或举报盗用：**HiFantasyMax**（社交平台）。
 
-Skill bug / 内容修正 / 质量验证失败：在 GitHub 开 issue。
+Skill 报错、内容修正、质量验证失败：在 GitHub 提 issue。
 
 ---
 

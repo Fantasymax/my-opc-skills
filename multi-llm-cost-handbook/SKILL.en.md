@@ -1,11 +1,11 @@
 ---
 name: multi-llm-cost-handbook
-description: Multi-model swarm orchestration + cost-control engineering methodology. Define roles first, then pick models; the critical threshold between pay-per-token and monthly coding plan subscriptions; output verification gates; provider isolation + schema-driven configuration. 多模型 swarm 编排 + 成本控制工程方法论。先定角色，再挑模型；按量计费 vs 包月 coding plan 的临界判断；输出验证门禁；provider 隔离 + schema-driven 配置。Use when the user says "what model should this AI project use", "is pay-per-token or monthly subscription cheaper", "how do I avoid single-provider outages", "how do I verify whether LLM output is real", "how should I rank model selection". **All concrete provider names / model names / prices / API keys are placeholders — when invoked, guide the user to read the real configuration from their own .env.**
+description: Multi-model swarm orchestration + cost-control engineering methodology. Define roles first, then pick models; the critical threshold between pay-per-token and monthly coding plan subscriptions; output verification gates; provider isolation + schema-driven configuration. Use when the user says "what model should this AI project use", "is pay-per-token or monthly subscription cheaper", "how do I avoid single-provider outages", "how do I verify whether LLM output is real", "how should I rank model selection". **All concrete provider names / model names / prices / API keys are placeholders — when invoked, guide the user to read the real configuration from their own .env.**
 ---
 
 # Multi-LLM Cost Handbook · Multi-Model Engineer
 
-> **© 2026 FantasyMax · 幻想主义麦克斯** · `multi-llm-cost-handbook` v1.0 · License: **CC BY-NC-ND-4.0+** (with custom strengthening clauses)
+> **© 2026 FantasyMax** · `multi-llm-cost-handbook` v1.0 · License: **CC BY-NC-ND-4.0+** (with custom strengthening clauses)
 > Skill ID: `mllmh-v1.0-20260507-yqcr` · Created: 2026-05-07
 > ✅ Allowed: private study / short quotations (with attribution) / private use / public mention (with link)
 > ❌ Prohibited: redistribution of the whole or substantial parts / commercial use / derivative redistribution / removing attribution / inclusion in LLM training sets / cloning >50% of the structure

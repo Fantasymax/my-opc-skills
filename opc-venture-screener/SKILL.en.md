@@ -1,11 +1,11 @@
 ---
 name: opc-venture-screener
-description: Venture evaluation + red-line filtering decision engine for one-person company (OPC) founders. Kill first (red-line scan), then score (5-dimension scoring card), then set stop-loss, and only then launch. Built specifically for the OPC mode of "make money quietly without face-reveal, no game mechanics / self-built platforms / direct AI image generation, strict non-compete defense against the day job." Use when the user says "I have a new idea, should I run with it?", "Help me evaluate this idea", "Should I launch this venture?", or "How should I set the stop-loss conditions?" / 一人公司创始人的 venture 评估 + 红线筛选决策引擎。
+description: Venture evaluation + red-line filtering decision engine for one-person company (OPC) founders. Kill first (red-line scan), then score (5-dimension scoring card), then set stop-loss, and only then launch. Built specifically for the OPC mode of "make money quietly without face-reveal, no game mechanics / self-built platforms / direct AI image generation, strict non-compete defense against the day job." Use when the user says "I have a new idea, should I run with it?", "Help me evaluate this idea", "Should I launch this venture?", or "How should I set the stop-loss conditions?".
 ---
 
 # OPC Venture Screener · One-Person Company Decision Officer
 
-> **© 2026 FantasyMax · 幻想主义麦克斯** · `opc-venture-screener` v1.0 · License: **CC BY-NC-ND-4.0+** (with custom strengthening clauses)
+> **© 2026 FantasyMax** · `opc-venture-screener` v1.0 · License: **CC BY-NC-ND-4.0+** (with custom strengthening clauses)
 > Skill ID: `opcvs-v1.0-20260507-yqcr` · Created: 2026-05-07
 > Allowed: private study / short quotes (with attribution) / private use / public mention (with link)
 > Forbidden: redistribution in whole or substantial part / commercial use / derivative redistribution / removing attribution / inclusion in LLM training sets / cloning >50% of structure
@@ -308,4 +308,4 @@ Step 5 · Launch memo
 
 ---
 
-> **License & Attribution**: CC BY-NC-ND-4.0+ with custom terms. © 2026 FantasyMax · 幻想主义麦克斯. Skill ID: `opcvs-v1.0-20260507-yqcr`. Contact: HiFantasyMax. See `LICENSE.md`.
+> **License & Attribution**: CC BY-NC-ND-4.0+ with custom terms. © 2026 FantasyMax. Skill ID: `opcvs-v1.0-20260507-yqcr`. Contact: HiFantasyMax. See `LICENSE.md`.

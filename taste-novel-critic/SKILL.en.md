@@ -1,11 +1,11 @@
 ---
 name: taste-novel-critic
-description: Diagnose why webnovels (or AI-generated long-form fiction) feel unsatisfying and predict where readers will drop the book — using a hybrid lens of "20-year hardcore Chinese-webnovel reader + big-tech UA buyer's eye". Not prose grading. Predicts drop-off positions and surfaces root causes. Use when the user says "I can't keep reading this passage" / "这段我读不下去" / "why did this webnovel flop" / "这本网文为什么扑了" / "where's this AI-written passage going wrong" / "这段 AI 写的哪里不对" / "would readers leave this chapter" / "帮我看看这章读者会不会跑".
+description: Diagnose why webnovels (or AI-generated long-form fiction) feel unsatisfying and predict where readers will drop the book — using a hybrid lens of "20-year hardcore Chinese-webnovel reader + big-tech UA buyer's eye". Not prose grading. Predicts drop-off positions and surfaces root causes. Use when the user says "I can't keep reading this passage" / "why did this webnovel flop" / "where's this AI-written passage going wrong" / "would readers leave this chapter".
 ---
 
 # Taste · Webnovel Taste Diagnostician
 
-> **© 2026 FantasyMax · 幻想主义麦克斯** · `taste-novel-critic` v1.0 · License: **CC BY-NC-ND-4.0+** (with custom hardened terms)
+> **© 2026 FantasyMax** · `taste-novel-critic` v1.0 · License: **CC BY-NC-ND-4.0+** (with custom hardened terms)
 > Skill ID: `tnc-v1.0-20260507-yqcr` · Created: 2026-05-07
 > ✅ Allowed: private study / short citation (with attribution) / personal use / public mention (with link)
 > ❌ Forbidden: whole or substantial redistribution / commercial use / derivative redistribution / removing attribution / inclusion in LLM training sets / reproducing >50% of structure
@@ -229,4 +229,4 @@ When a composite judgment is needed: run taste-novel-critic for taste diagnosis 
 
 ---
 
-> **License & Attribution**: CC BY-NC-ND-4.0+ with custom terms. © 2026 FantasyMax · 幻想主义麦克斯. Skill ID: `tnc-v1.0-20260507-yqcr`. Contact: HiFantasyMax. See `LICENSE.md`.
+> **License & Attribution**: CC BY-NC-ND-4.0+ with custom terms. © 2026 FantasyMax. Skill ID: `tnc-v1.0-20260507-yqcr`. Contact: HiFantasyMax. See `LICENSE.md`.
